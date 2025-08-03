@@ -1,0 +1,94 @@
+2025-08-03T21:35:35.836+05:30  INFO 912 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Starting MultiTaskerApplication using Java 24.0.1 with PID 912 (C:\Users\user\Downloads\multitasker\multitasker\target\classes started by user in C:\Users\user\Downloads\multitasker\multitasker)
+2025-08-03T21:35:35.839+05:30 DEBUG 912 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Running with Spring Boot v3.5.5-SNAPSHOT, Spring v6.2.9
+2025-08-03T21:35:35.841+05:30  INFO 912 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T21:35:35.911+05:30  INFO 912 --- [MultiTasker] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-03T21:35:35.911+05:30  INFO 912 --- [MultiTasker] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-03T21:35:36.931+05:30  INFO 912 --- [MultiTasker] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T21:35:37.027+05:30  INFO 912 --- [MultiTasker] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2025-08-03T21:35:37.789+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-03T21:35:37.807+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-03T21:35:37.807+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-03T21:35:37.867+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-03T21:35:37.867+05:30  INFO 912 --- [MultiTasker] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1955 ms
+2025-08-03T21:35:38.096+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T21:35:38.172+05:30  INFO 912 --- [MultiTasker] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-03T21:35:38.224+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T21:35:38.596+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T21:35:38.636+05:30  INFO 912 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T21:35:38.836+05:30  INFO 912 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c59ee24
+2025-08-03T21:35:38.838+05:30  INFO 912 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T21:35:38.917+05:30  INFO 912 --- [MultiTasker] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T21:35:38.926+05:30 DEBUG 912 --- [MultiTasker] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@3eba377) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@7f3c3a44)
+2025-08-03T21:35:38.927+05:30 DEBUG 912 --- [MultiTasker] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1d6829c3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7f29fe1e)
+2025-08-03T21:35:40.068+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T21:35:40.318+05:30  INFO 912 --- [MultiTasker] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T21:35:41.800+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-03T21:35:41.841+05:30  INFO 912 --- [MultiTasker] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-03T21:35:41.853+05:30  INFO 912 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Started MultiTaskerApplication in 6.726 seconds (process running for 7.335)
+2025-08-03T21:36:00.665+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-03T21:36:00.666+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-03T21:36:00.667+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-03T21:36:00.790+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.m.controller.UserController          : Start UserController : createUser() method ...
+2025-08-03T21:36:00.794+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : Start UserMapper : toEntity() method ...
+2025-08-03T21:36:00.794+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : User user -> User(id=null, userName=Devesh, password=pass1234, email=devesh@example.com, role=ADMIN, tenant=null, task=null)
+2025-08-03T21:36:00.794+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : UserRequest userRequest -> UserRequest(userName=Devesh, password=pass1234, email=devesh@example.com, role=ADMIN, tenantId=null)
+2025-08-03T21:36:00.795+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : End UserMapper : toEntity() method ...
+2025-08-03T21:36:00.842+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        app_user
+        (email, password, role, tenant_id, user_name) 
+    values
+        (?, ?, ?, ?, ?)
+2025-08-03T21:36:00.893+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : Start UserMapper : toResponse() method ...
+2025-08-03T21:36:00.895+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : User user -> User(id=8, userName=Devesh, password=pass1234, email=devesh@example.com, role=ADMIN, tenant=null, task=null)
+2025-08-03T21:36:00.895+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : UserResponse userResponse -> UserResponse(id=8, userName=Devesh, password=pass1234, email=devesh@example.com, role=ADMIN, tenantId=null)
+2025-08-03T21:36:00.895+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.multitasker.dto.mapper.UserMapper    : End UserMapper : toResponse() method ...
+2025-08-03T21:36:00.896+05:30 DEBUG 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.m.controller.UserController          : Saved user id: 8
+2025-08-03T21:36:00.896+05:30  INFO 912 --- [MultiTasker] [http-nio-8080-exec-1] c.e.m.controller.UserController          : End UserController : createUser() method ...
+2025-08-03T21:37:29.552+05:30  INFO 912 --- [MultiTasker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03T21:37:29.558+05:30  INFO 912 --- [MultiTasker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-03T21:37:29.563+05:30  INFO 912 --- [MultiTasker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T21:37:29.567+05:30  INFO 912 --- [MultiTasker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T21:37:29.580+05:30  INFO 912 --- [MultiTasker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T21:37:32.038+05:30  INFO 15640 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Starting MultiTaskerApplication using Java 24.0.1 with PID 15640 (C:\Users\user\Downloads\multitasker\multitasker\target\classes started by user in C:\Users\user\Downloads\multitasker\multitasker)
+2025-08-03T21:37:32.040+05:30 DEBUG 15640 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Running with Spring Boot v3.5.5-SNAPSHOT, Spring v6.2.9
+2025-08-03T21:37:32.041+05:30  INFO 15640 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T21:37:32.112+05:30  INFO 15640 --- [MultiTasker] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-03T21:37:32.113+05:30  INFO 15640 --- [MultiTasker] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-03T21:37:33.301+05:30  INFO 15640 --- [MultiTasker] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T21:37:33.398+05:30  INFO 15640 --- [MultiTasker] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2025-08-03T21:37:34.167+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-03T21:37:34.183+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-03T21:37:34.184+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-03T21:37:34.235+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-03T21:37:34.236+05:30  INFO 15640 --- [MultiTasker] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2123 ms
+2025-08-03T21:37:34.473+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T21:37:34.544+05:30  INFO 15640 --- [MultiTasker] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-03T21:37:34.591+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T21:37:34.962+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T21:37:35.000+05:30  INFO 15640 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T21:37:35.324+05:30  INFO 15640 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@585d0304
+2025-08-03T21:37:35.326+05:30  INFO 15640 --- [MultiTasker] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T21:37:35.393+05:30  INFO 15640 --- [MultiTasker] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T21:37:35.401+05:30 DEBUG 15640 --- [MultiTasker] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2003, org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@5dde53d8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.ArrayDdlTypeImpl@250a7037)
+2025-08-03T21:37:35.402+05:30 DEBUG 15640 --- [MultiTasker] [restartedMain] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(6, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55bda1d2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1619f639)
+2025-08-03T21:37:36.474+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T21:37:36.708+05:30  INFO 15640 --- [MultiTasker] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T21:37:37.985+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-03T21:37:38.020+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-03T21:37:38.030+05:30  INFO 15640 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Started MultiTaskerApplication in 6.726 seconds (process running for 7.451)
