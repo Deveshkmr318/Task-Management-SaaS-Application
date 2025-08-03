@@ -92,3 +92,8 @@
 2025-08-03T21:37:37.985+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2025-08-03T21:37:38.020+05:30  INFO 15640 --- [MultiTasker] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-08-03T21:37:38.030+05:30  INFO 15640 --- [MultiTasker] [restartedMain] c.e.multitasker.MultiTaskerApplication   : Started MultiTaskerApplication in 6.726 seconds (process running for 7.451)
+2025-08-03T21:41:01.486+05:30  INFO 15640 --- [MultiTasker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-03T21:41:01.491+05:30  INFO 15640 --- [MultiTasker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-03T21:41:01.497+05:30  INFO 15640 --- [MultiTasker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T21:41:01.502+05:30  INFO 15640 --- [MultiTasker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T21:41:01.512+05:30  INFO 15640 --- [MultiTasker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
